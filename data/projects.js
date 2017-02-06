@@ -421,5 +421,26 @@ coala should support generating metrics for your code.",
 		"tags" : ["Jetbrains IDEs", "Plugins"],
 		"markdown": "jetbrains-ide-plugin.md",
 		"collaborating_projects" : ["coala", "jetbrains"]
+	},
+	{
+		"name" : "Documentation Extraction and Parsing",
+		"desc" : "The Project is about writing language independent \
+				  documentation extraction and parsing algorithms.",
+		"requirements" : [
+			"The participant should have one bugfix patch to any bear accepted.",
+			"The participant should have an basic understanding of the algorithms \
+			behind existing documentation extraction routines.",
+			"The proposal should contain issues which are planned to be \
+			addressed, chosen (and potentially \
+			[filed](https://github.com/coala/coala-bears/issues/new)) by the \
+			student."
+		],
+		"difficulty" : "high",
+		"issues" : [],
+		"mentors" : ["SanketDG"],
+		"initiatives" : ["GSoC", "RGSoC"],
+		"tags" : ["Documentation", "Bears"],
+		"markdown": "documentation_extraction.md",
+		"collaborating_projects" : ["coala"]
 	}
 ]
